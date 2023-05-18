@@ -56,57 +56,57 @@ Restart 1: May 15, 2023 / 6:58AM
 
 -----------------------------------------------------------------------------------------------
 
-Restart 2: May 15, 2023 / 7:18AM 
+Restart 2: May 18, 2023 / 12:17AM
 
-3|run-humansd-testnet  | 7:18AM INF service stop impl={"Logger":{},"Switch":{"Logger":{}}} module=evidence msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service stop impl={"Logger":{},"Switch":{"Logger":{}}} module=statesync msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service stop impl={"Logger":{},"Switch":{"Logger":{}}} module=pex msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service stop book=/home/ubuntu/.humansd/config/addrbook.json impl={"Logger":{}} module=p2p msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service stop impl={"Logger":{},"Switch":{"Logger":{}}} module=blockchain msg={} server=node
-3|run-humansd-testnet  | 7:18AM ERR Error stopping pool err="already stopped" module=blockchain server=node
-3|run-humansd-testnet  | 7:18AM INF Closing rpc listener listener={"Listener":{}} server=node
-3|run-humansd-testnet  | 7:18AM INF RPC HTTP server stopped err="accept tcp [::]:26657: use of closed network connection" module=rpc-server server=node
-3|run-humansd-testnet  | 7:18AM ERR Error serving server err="accept tcp [::]:26657: use of closed network connection" server=node
-3|run-humansd-testnet  | 7:18AM INF Saving AddrBook to file book=/home/ubuntu/.humansd/config/addrbook.json module=p2p server=node size=120
-3|run-humansd-testnet  | 7:18AM ERR Stopped accept routine, as transport is closed module=p2p numPeers=0 server=node
-3|run-humansd-testnet  | 7:18AM INF Unlocking keyring
-3|run-humansd-testnet  | 7:18AM INF starting ABCI with Tendermint
-3|run-humansd-testnet  | 7:18AM INF starting node with ABCI Tendermint in-process
-3|run-humansd-testnet  | 7:18AM INF service start impl=multiAppConn module=proxy msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start connection=query impl=localClient module=abci-client msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start connection=snapshot impl=localClient module=abci-client msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start connection=mempool impl=localClient module=abci-client msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start connection=consensus impl=localClient module=abci-client msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl=EventBus module=events msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl=PubSub module=pubsub msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl=IndexerService module=txindex msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF ABCI Handshake App Info hash="��G�nk\x1e���\x11�|\x1f��&[JX�\x13�!m<!��u�u" height=55600 module=consensus protocol-version=0 server=node software-version=0.2.1
-3|run-humansd-testnet  | 7:18AM INF ABCI Replay Blocks appHeight=55600 module=consensus server=node stateHeight=55600 storeHeight=55600
-3|run-humansd-testnet  | 7:18AM INF Completed ABCI Handshake - CometBFT and App are synced appHash="��G�nk\x1e���\x11�|\x1f��&[JX�\x13�!m<!��u�u" appHeight=55600 module=consensus server=node
-3|run-humansd-testnet  | 7:18AM INF Version info abci=0.17.0 block=11 cmtbft_version=0.34.27 commit_hash= p2p=8 server=node
-3|run-humansd-testnet  | 7:18AM INF This node is a validator addr=39BF38474C9624485BD73102D7A4C83736A846DC module=consensus pubKey=QxW9bmcsBE8Qf+eGG4pp4dDVpDPauMzDgiT1Z180oGQ= server=node
-3|run-humansd-testnet  | 7:18AM INF P2P Node ID ID=e52c69f28b78513cf65c882effc28cd288476504 file=/home/ubuntu/.humansd/config/node_key.json module=p2p server=node
-3|run-humansd-testnet  | 7:18AM INF Adding persistent peers addrs=["4762fa22edb91acd78010026f8da5fb71e174acb@142.165.207.19:36656","2ce2d45c4e434ceb2a0a662549a629e08c53a106@65.109.84.103:26656","2f6cc8b0b255745d71c358351ddde1faa350b0be@95.217.200.36:26656","b9767aa2312748caaf67425890768d85186b69b1@5.9.87.205:26656","49f2ffa9786690548a1094b620d869ed72a33f8c@141.95.99.214:26656","b1639fb460c9f55bb3acc3006df64ac5013f1412@91.194.30.203:26656","a41f29c2d498b232c18f75364e38cee06fac198d@78.46.64.59:26656","62fff57f15d7ba6fb8aecb9ae93ea58dd3cefea8@85.239.240.45:26656","8e32537f2f77dfeb1b5834340a30e6750c4f88c2@81.30.157.35:26656","df5cb643d8aeade8ef288a3dd90e4fd8220954ba@162.55.243.211:26656","fa9eb901a01430d928e71162151992c7afb51d62@178.23.126.70:26656","eb68fd2f20d58a6f8ab68e7a0fea7d5abe311f16@118.193.37.229:26656","de3cd5f6c726935c4c0fdb1e6bd5b705074c637c@144.76.45.59:26656","2b3421d3432361846e77bdeb97d06e2b178a4be3@129.213.108.20:26656"] module=p2p server=node
-3|run-humansd-testnet  | 7:18AM INF Adding unconditional peer ids ids=[] module=p2p server=node
-3|run-humansd-testnet  | 7:18AM INF Add our address to book addr={"id":"e52c69f28b78513cf65c882effc28cd288476504","ip":"0.0.0.0","port":26656} book=/home/ubuntu/.humansd/config/addrbook.json module=p2p server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl=Node msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF Starting pprof server laddr=0.0.0.0:6060 server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl="P2P Switch" module=p2p msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl=ConsensusReactor module=consensus msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF Reactor  module=consensus server=node waitSync=true
-3|run-humansd-testnet  | 7:18AM INF service start impl=Evidence module=evidence msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl=StateSync module=statesync msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl=PEX module=pex msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start book=/home/ubuntu/.humansd/config/addrbook.json impl=AddrBook module=p2p msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF serve module=rpc-server msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl=BlockchainReactor module=blockchain msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl=BlockPool module=blockchain msg={} server=node
-3|run-humansd-testnet  | 7:18AM INF Saving AddrBook to file book=/home/ubuntu/.humansd/config/addrbook.json module=p2p server=node size=120
-3|run-humansd-testnet  | 7:18AM INF Ensure peers module=pex numDialing=0 numInPeers=0 numOutPeers=0 numToDial=10 server=node
-3|run-humansd-testnet  | 7:18AM INF serve msg={} server=api
-3|run-humansd-testnet  | 7:18AM INF Reconnecting to peer addr={"id":"49f2ffa9786690548a1094b620d869ed72a33f8c","ip":"141.95.99.214","port":26656} module=p2p server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl="Peer{MConn{38.146.3.209:26656} 6c2581bce457207a8d29895216a06f0f98d39599 out}" module=p2p msg={} peer={"id":"6c2581bce457207a8d29895216a06f0f98d39599","ip":"38.146.3.209","port":26656} server=node
-3|run-humansd-testnet  | 7:18AM INF service start impl=MConn{38.146.3.209:26656} module=p2p msg={} peer={"id":"6c2581bce457207a8d29895216a06f0f98d39599","ip":"38.146.3.209","port":26656} server=node
+3|run-humansd-testnet  | 12:17AM INF service stop impl={"Logger":{}} module=consensus msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service stop impl={"Logger":{}} module=consensus msg={} server=node wal=/home/ubuntu/.humansd/data/cs.wal/wal
+3|run-humansd-testnet  | 12:17AM INF service stop impl={"Dir":"/home/ubuntu/.humansd/data/cs.wal","Head":{"ID":"kTtROxOIFIbD:/home/ubuntu/.humansd/data/cs.wal/wal","Path":"/home/ubuntu/.humansd/data/cs.wal/wal"},"ID":"group:kTtROxOIFIbD:/home/ubuntu/.humansd/data/cs.wal/wal","Logger":{}} module=consensus msg={} server=node wal=/home/ubuntu/.humansd/data/cs.wal/wal
+3|run-humansd-testnet  | 12:17AM INF service stop impl={"Logger":{},"Switch":{"Logger":{}}} module=evidence msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service stop impl={"Logger":{},"Switch":{"Logger":{}}} module=statesync msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service stop impl={"Logger":{},"Switch":{"Logger":{}}} module=pex msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service stop book=/home/ubuntu/.humansd/config/addrbook.json impl={"Logger":{}} module=p2p msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF Saving AddrBook to file book=/home/ubuntu/.humansd/config/addrbook.json module=p2p server=node size=120
+3|run-humansd-testnet  | 12:17AM ERR Stopped accept routine, as transport is closed module=p2p numPeers=0 server=node
+3|run-humansd-testnet  | 12:17AM INF Closing rpc listener listener={"Listener":{}} server=node
+3|run-humansd-testnet  | 12:17AM INF RPC HTTP server stopped err="accept tcp [::]:26657: use of closed network connection" module=rpc-server server=node
+3|run-humansd-testnet  | 12:17AM ERR Error serving server err="accept tcp [::]:26657: use of closed network connection" server=node
+3|run-humansd-testnet  | 12:17AM INF Unlocking keyring
+3|run-humansd-testnet  | 12:17AM INF starting ABCI with Tendermint
+3|run-humansd-testnet  | 12:17AM INF starting node with ABCI Tendermint in-process
+3|run-humansd-testnet  | 12:17AM INF service start impl=multiAppConn module=proxy msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start connection=query impl=localClient module=abci-client msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start connection=snapshot impl=localClient module=abci-client msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start connection=mempool impl=localClient module=abci-client msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start connection=consensus impl=localClient module=abci-client msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl=EventBus module=events msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl=PubSub module=pubsub msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl=IndexerService module=txindex msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF ABCI Handshake App Info hash="�h�\t���O�z�\x14\x04����\x02�Eԉ̚�2R\x00��#�" height=93209 module=consensus protocol-version=0 server=node software-version=0.2.2
+3|run-humansd-testnet  | 12:17AM INF ABCI Replay Blocks appHeight=93209 module=consensus server=node stateHeight=93209 storeHeight=93209
+3|run-humansd-testnet  | 12:17AM INF Completed ABCI Handshake - CometBFT and App are synced appHash="�h�\t���O�z�\x14\x04����\x02�Eԉ̚�2R\x00��#�" appHeight=93209 module=consensus server=node
+3|run-humansd-testnet  | 12:17AM INF Version info abci=0.17.0 block=11 cmtbft_version=0.34.27 commit_hash= p2p=8 server=node
+3|run-humansd-testnet  | 12:17AM INF This node is a validator addr=39BF38474C9624485BD73102D7A4C83736A846DC module=consensus pubKey=QxW9bmcsBE8Qf+eGG4pp4dDVpDPauMzDgiT1Z180oGQ= server=node
+3|run-humansd-testnet  | 12:17AM INF P2P Node ID ID=e52c69f28b78513cf65c882effc28cd288476504 file=/home/ubuntu/.humansd/config/node_key.json module=p2p server=node
+3|run-humansd-testnet  | 12:17AM INF Adding persistent peers addrs=["4762fa22edb91acd78010026f8da5fb71e174acb@142.165.207.19:36656","2ce2d45c4e434ceb2a0a662549a629e08c53a106@65.109.84.103:26656","2f6cc8b0b255745d71c358351ddde1faa350b0be@95.217.200.36:26656","b9767aa2312748caaf67425890768d85186b69b1@5.9.87.205:26656","49f2ffa9786690548a1094b620d869ed72a33f8c@141.95.99.214:26656","b1639fb460c9f55bb3acc3006df64ac5013f1412@91.194.30.203:26656","a41f29c2d498b232c18f75364e38cee06fac198d@78.46.64.59:26656","62fff57f15d7ba6fb8aecb9ae93ea58dd3cefea8@85.239.240.45:26656","8e32537f2f77dfeb1b5834340a30e6750c4f88c2@81.30.157.35:26656","df5cb643d8aeade8ef288a3dd90e4fd8220954ba@162.55.243.211:26656","fa9eb901a01430d928e71162151992c7afb51d62@178.23.126.70:26656","eb68fd2f20d58a6f8ab68e7a0fea7d5abe311f16@118.193.37.229:26656","de3cd5f6c726935c4c0fdb1e6bd5b705074c637c@144.76.45.59:26656","2b3421d3432361846e77bdeb97d06e2b178a4be3@129.213.108.20:26656"] module=p2p server=node
+3|run-humansd-testnet  | 12:17AM INF Adding unconditional peer ids ids=[] module=p2p server=node
+3|run-humansd-testnet  | 12:17AM INF Add our address to book addr={"id":"e52c69f28b78513cf65c882effc28cd288476504","ip":"0.0.0.0","port":26656} book=/home/ubuntu/.humansd/config/addrbook.json module=p2p server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl=Node msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF Starting pprof server laddr=0.0.0.0:6060 server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl="P2P Switch" module=p2p msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl=Evidence module=evidence msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl=StateSync module=statesync msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl=PEX module=pex msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start book=/home/ubuntu/.humansd/config/addrbook.json impl=AddrBook module=p2p msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF serve module=rpc-server msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl=BlockchainReactor module=blockchain msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl=BlockPool module=blockchain msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF service start impl=ConsensusReactor module=consensus msg={} server=node
+3|run-humansd-testnet  | 12:17AM INF Reactor  module=consensus server=node waitSync=true
+3|run-humansd-testnet  | 12:17AM INF Saving AddrBook to file book=/home/ubuntu/.humansd/config/addrbook.json module=p2p server=node size=120
+3|run-humansd-testnet  | 12:17AM INF Ensure peers module=pex numDialing=0 numInPeers=0 numOutPeers=0 numToDial=10 server=node
+3|run-humansd-testnet  | 12:17AM INF serve msg={} server=api
+3|run-humansd-testnet  | 12:17AM ERR Error dialing peer err="dial tcp 162.55.243.211:26656: connect: connection refused" module=p2p server=node
+3|run-humansd-testnet  | 12:17AM INF Reconnecting to peer addr={"id":"df5cb643d8aeade8ef288a3dd90e4fd8220954ba","ip":"162.55.243.211","port":26656} module=p2p server=node
 
 -----------------------------------------------------------------------------------------------
 
